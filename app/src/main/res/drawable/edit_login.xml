@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="90dp"
+    android:viewportWidth="150"
+    android:viewportHeight="48">
+    <!--  第一条横线  -->
+    <path android:name="bar"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="square"
+        android:pathData="M 0,23 L 140,23"/>
+    <!--   向上的圆弧  -->
+    <path android:name="round"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"
+        android:pathData="M 138 23 A 10 10 0 1 0 128 13"/>
+    <!--  对号 -->
+    <path android:name="right"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"
+        android:pathData="M 128 13 l 3 3 l 5 -6"/>
+    <!--  向下的圆弧  -->
+    <path android:name="round2"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="round"
+        android:pathData="M 138 23 A 10 10 0 1 1 138 43"/>
+    <!--  第二条横线 -->
+    <path android:name="bar2"
+        android:strokeWidth="1"
+        android:strokeColor="@color/colorAccent"
+        android:strokeAlpha="0.8"
+        android:strokeLineCap="square"
+        android:pathData="M 140,43 L 0,43"/>
+</vector>
